@@ -7,7 +7,7 @@ student_detail = pd.DataFrame({
     'marks' : [89, 56, 76, 92, 67]
 })
 
-sns.lineplot(x = 'student', y = 'marks', data = student_detail, marker = 'o')
+sns.lineplot(x = 'student', y = 'marks', data = student_detail, marker = 'o', linewidth = 4)
 plt.show()
 
 
